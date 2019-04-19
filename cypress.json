@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://google.com",
+  "env": {
+    "username": "admin",
+    "password": "pass"
+  },
+  "integrationFolder":"src/specs",
+  "chromeWebSecurity": false,
+  "screenshotsFolder": "reports/screenshots",
+  "videosFolder": "reports/videos",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir":"reports",
+    "reportFilename":"results",
+    "quiet":"true",
+    "json":"false"
+  },
+  "watchForFileChanges": false,
+  "defaultCommandTimeout": 4000,
+  "pageLoadTimeout": 60000,
+  "supportFile": "src/util/hooks.js"
+}
